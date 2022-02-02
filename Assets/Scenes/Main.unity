@@ -1,0 +1,4573 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.2509804, g: 0.3882353, b: 0.5058824, a: 1}
+  m_AmbientEquatorColor: {r: 0.17254902, g: 0.26666668, b: 0.34901962, a: 1}
+  m_AmbientGroundColor: {r: 0.07450981, g: 0.11372549, b: 0.14901961, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 1
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: c2f65140676fb124eb1e04e23637fe38, type: 2}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.0068126144, g: 0.0068065817, b: 0.007763507, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 1
+    m_BakeResolution: 50
+    m_AtlasSize: 1024
+    m_AO: 1
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 0
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 512
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 0
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 484fca72f3293f84caba8e83e665b455, type: 2}
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666666
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &52902738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 52902739}
+  m_Layer: 0
+  m_Name: ArchesContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &52902739
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52902738}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1416557056}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &158759421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 158759424}
+  - component: {fileID: 158759423}
+  - component: {fileID: 158759426}
+  - component: {fileID: 158759422}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &158759422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158759421}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdcd06815c47d30489f70df42db56a48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frustumSettings:
+    baseSettings: {fileID: 1443201083}
+    qualitySettings: {fileID: 386594353}
+--- !u!20 &158759423
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158759421}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 20
+  far clip plane: 10000
+  field of view: 40
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &158759424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158759421}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -200}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &158759426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158759421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afdc84d199a30294db62f4bdfa3ad05c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentTranslateData:
+    Distance: 0
+    TranslateSpeed: 0
+    RotationSpeed: 0
+    AngleH: 0
+    AngleV: 0
+    Target: {fileID: 0}
+    OffsetPos: {x: 0, y: 0, z: 0}
+    isOffsetInTargetSpace: 0
+  isMouseControlEnabled: 0
+  MouseSensibility: {x: 4, y: 2}
+  isRunningAnimation: 0
+--- !u!1001 &260405839
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 457672914}
+    m_Modifications:
+    - target: {fileID: 958839946516772479, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 958839946516772479, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2264574669516052102, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3872406204337823281, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3872406204337823281, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830334646563860599, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: LightTransform
+      value: 
+      objectReference: {fileID: 2073334639}
+    - target: {fileID: 6901834373547878621, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6901834373547878621, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6901834373547878621, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6957824140721293984, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+      propertyPath: m_Name
+      value: DestinationPanel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+--- !u!224 &260405840 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2489855224271115376, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+  m_PrefabInstance: {fileID: 260405839}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &322792542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 322792543}
+  m_Layer: 0
+  m_Name: LightAngle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &322792543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322792542}
+  m_LocalRotation: {x: 0, y: 0.97904545, z: -0.20364177, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2073334639}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 23.5, y: 180, z: 0}
+--- !u!1001 &339261911
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1000665062}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_Name
+      value: Atmosphere
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.01800001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.01800001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.01800001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2bff8c6781b44bf41b50e0a0138060a5, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+--- !u!114 &386594353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8334a49e76cafef4da22976db1613959, type: 3}
+  m_Name: Default Aura Quality Settings
+  m_EditorClassIdentifier: 
+  displayVolumetricLightingBuffer: 0
+  frustumGridResolution: {x: 160, y: 88, z: 128}
+  enableAutomaticStereoResizing: 1
+  farClipPlaneDistance: 128
+  depthBiasCoefficient: 0.35
+  enableVolumes: 1
+  enableVolumesTexture2DMask: 1
+  enableVolumesTexture3DMask: 1
+  enableVolumesNoiseMask: 1
+  enableAmbientLighting: 1
+  enableDirectionalLights: 1
+  enableDirectionalLightsShadows: 1
+  enableSpotLights: 1
+  enableSpotLightsShadows: 1
+  enablePointLights: 1
+  enablePointLightsShadows: 1
+  enableLightsCookies: 1
+  enableDithering: 1
+  texture3DFiltering: 1
+  EXPERIMENTAL_enableDenoisingFilter: 0
+  EXPERIMENTAL_denoisingFilterRange: 0
+  EXPERIMENTAL_enableBlurFilter: 0
+  EXPERIMENTAL_blurFilterRange: 0
+  EXPERIMENTAL_blurFilterType: 0
+  EXPERIMENTAL_blurFilterGaussianDeviation: 0.0025
+  enableTemporalReprojection: 1
+  temporalReprojectionFactor: 0.95
+  enableOcclusionCulling: 1
+  debugOcclusionCulling: 0
+  occlusionCullingAccuracy: 0
+  enableLightProbes: 0
+--- !u!1 &457672913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 457672914}
+  - component: {fileID: 457672917}
+  - component: {fileID: 457672916}
+  - component: {fileID: 457672915}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &457672914
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457672913}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 505038988}
+  - {fileID: 260405840}
+  - {fileID: 484738946}
+  - {fileID: 1050260685}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &457672915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457672913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &457672916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457672913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &457672917
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457672913}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!1 &484738945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 484738946}
+  - component: {fileID: 484738948}
+  - component: {fileID: 484738947}
+  m_Layer: 5
+  m_Name: Loader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &484738946
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484738945}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1830808583}
+  - {fileID: 785474875}
+  m_Father: {fileID: 457672914}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 4, y: 4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &484738947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484738945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: f19b73aabd02c89469d0b0c04cd5ba08, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &484738948
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484738945}
+  m_CullTransparentMesh: 1
+--- !u!1 &505038987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 505038988}
+  - component: {fileID: 505038990}
+  - component: {fileID: 505038989}
+  m_Layer: 5
+  m_Name: BlurTestImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &505038988
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505038987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 457672914}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 210.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &505038989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505038987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: f19b73aabd02c89469d0b0c04cd5ba08, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &505038990
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505038987}
+  m_CullTransparentMesh: 1
+--- !u!1 &552873218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 552873219}
+  - component: {fileID: 552873220}
+  m_Layer: 0
+  m_Name: EarthFocusPivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &552873219
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552873218}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1416557056}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &552873220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552873218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b92586ad738c3468f3e76b426c460a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Earth: {fileID: 1000665062}
+  Camera: {fileID: 158759426}
+  CurrentTranslateData:
+    Distance: 0
+    TranslateSpeed: 0
+    RotationSpeed: 0
+    AngleH: 0
+    AngleV: 0
+    Target: {fileID: 0}
+    OffsetPos: {x: 0, y: 0, z: 0}
+    isOffsetInTargetSpace: 0
+  isMouseControlEnabled: 0
+  MouseSensibility: {x: 1, y: 1}
+  currentAngle: {x: 0, y: 0}
+  angleSensibility: {x: 1, y: 1}
+  angleSmoothTime: {x: 0.3, y: 0.3}
+  verticalAngleBounds: {x: -90, y: 90}
+  zoomBounds: {x: 30, y: 200}
+  currentZoom: 0
+  zoomSensibility: 40
+  zoomSmoothTime: 0.03
+--- !u!114 &670809306 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5830334646563860599, guid: e1922b8be001c62479b5a883ad6d6584, type: 3}
+  m_PrefabInstance: {fileID: 260405839}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24182b6927111e44290a1ba467e9cd59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &674350911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 674350912}
+  - component: {fileID: 674350914}
+  - component: {fileID: 674350913}
+  m_Layer: 5
+  m_Name: LoaderTexter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &674350912
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674350911}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1050260685}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -191.07983}
+  m_SizeDelta: {x: 425.0709, y: 177.8403}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &674350913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674350911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: PiGri Airlines
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 63
+  m_fontSizeBase: 63
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &674350914
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674350911}
+  m_CullTransparentMesh: 1
+--- !u!1 &785474874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 785474875}
+  - component: {fileID: 785474878}
+  - component: {fileID: 785474877}
+  - component: {fileID: 785474876}
+  m_Layer: 5
+  m_Name: AirplaneImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &785474875
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785474874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 484738946}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -94, y: 178.68}
+  m_SizeDelta: {x: 800, y: 800}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &785474876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785474874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 5c764ead5bdea6b4fb5c4648d5917cd7, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: ebd0c361d9c231f458b2053f1c6a60dd, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!114 &785474877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785474874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0708e4170d8193c4bb68002e2c555d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RawImage: {fileID: 785474876}
+  Filename: airplane.gif
+--- !u!222 &785474878
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785474874}
+  m_CullTransparentMesh: 1
+--- !u!4 &1000665062 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+  m_PrefabInstance: {fileID: 1299300886}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1008518830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1008518833}
+  - component: {fileID: 1008518832}
+  - component: {fileID: 1008518831}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1008518831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008518830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1008518832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008518830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1008518833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008518830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1050260684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1050260685}
+  - component: {fileID: 1050260687}
+  - component: {fileID: 1050260686}
+  m_Layer: 5
+  m_Name: LogoPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1050260685
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050260684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1689478891}
+  - {fileID: 674350912}
+  m_Father: {fileID: 457672914}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -50}
+  m_SizeDelta: {x: 500, y: 300}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &1050260686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050260684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: f19b73aabd02c89469d0b0c04cd5ba08, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 9bbc77b5fe183fe4cb20750802baf6c0, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1050260687
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050260684}
+  m_CullTransparentMesh: 1
+--- !u!1001 &1299300886
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1416557056}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_Name
+      value: Earth
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1683126e1dd776a4db908ca88829a532, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1cc11ffbe578fa547b800e780e45b9c1, type: 3}
+--- !u!1 &1416557055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1416557056}
+  m_Layer: 0
+  m_Name: ScenarioContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1416557056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416557055}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1000665062}
+  - {fileID: 2089346557}
+  - {fileID: 552873219}
+  - {fileID: 52902739}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1443201083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59306422a2ca4454aabce3daa79c3334, type: 3}
+  m_Name: New Aura Base Settings
+  m_EditorClassIdentifier: 
+  useDensity: 1
+  density: 0.5
+  useScattering: 1
+  scattering: 1
+  useAmbientLighting: 1
+  ambientLightingStrength: 1.25
+  useColor: 1
+  color: {r: 0.0000005066395, g: 0.5, b: 0.5, a: 1}
+  colorStrength: 1
+  useTint: 1
+  tint: {r: 0.999999, g: 0.9215677, b: 0.015686257, a: 1}
+  tintStrength: 1
+  useExtinction: 1
+  extinction: 0
+--- !u!1 &1689478890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1689478891}
+  - component: {fileID: 1689478894}
+  - component: {fileID: 1689478893}
+  - component: {fileID: 1689478892}
+  m_Layer: 5
+  m_Name: AirplaneImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1689478891
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689478890}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1050260685}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -53, y: 135}
+  m_SizeDelta: {x: 500, y: 500}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &1689478892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689478890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 8f26821b437bcc340849f1244e3afcf4, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: ebd0c361d9c231f458b2053f1c6a60dd, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!114 &1689478893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689478890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0708e4170d8193c4bb68002e2c555d90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RawImage: {fileID: 1689478892}
+  Filename: airplane.gif
+--- !u!222 &1689478894
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689478890}
+  m_CullTransparentMesh: 1
+--- !u!1 &1830808582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1830808583}
+  - component: {fileID: 1830808585}
+  - component: {fileID: 1830808584}
+  m_Layer: 5
+  m_Name: LoaderTexter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1830808583
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830808582}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 484738946}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -50}
+  m_SizeDelta: {x: 570, y: 177.8403}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1830808584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830808582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '<b>PiGri Airlines</b>
+
+    <size=45%>loading</size>'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 70
+  m_fontSizeBase: 70
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1830808585
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830808582}
+  m_CullTransparentMesh: 1
+--- !u!1 &1975881389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1975881390}
+  - component: {fileID: 1975881392}
+  - component: {fileID: 1975881393}
+  - component: {fileID: 1975881391}
+  - component: {fileID: 1975881394}
+  - component: {fileID: 1975881395}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1975881390
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975881389}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1975881391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975881389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 695f93bfd33ac7541a2843af497bf0b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PinPrefab: {fileID: -5130233112330029245, guid: c000197b08ad1be4794ff58e3407f126, type: 3}
+  PinsContainer: {fileID: 2089346557}
+  airportsData:
+  - Iata: 
+    Name: "Aeroporto di Citt\xE0 del Capo"
+    CoordinateV: "033\xB058\u203210.0000\u2033S"
+    CoordinateH: "018\xB035\u203250.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Sudafrica
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Johannesburg
+    CoordinateV: "026\xB008\u203200.0000\u2033S"
+    CoordinateH: "028\xB014\u203200.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Sudafrica
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto del Cairo
+    CoordinateV: "030\xB007\u203219.0000\u2033N"
+    CoordinateH: "031\xB024\u203220.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Egitto
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Dar es Salaam
+    CoordinateV: "006\xB052\u203232.0000\u2033S"
+    CoordinateH: "039\xB012\u203207.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Tanzania
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Nairobi
+    CoordinateV: "001\xB019\u203209.0000\u2033S"
+    CoordinateH: "036\xB055\u203239.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Kenya
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Algeri
+    CoordinateV: "036\xB041\u203240.0000\u2033N"
+    CoordinateH: "003\xB013\u203201.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Algeria
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Borg El Arab
+    CoordinateV: "030\xB055\u203202.3900\u2033N"
+    CoordinateH: "029\xB041\u203228.1900\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Egitto
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Lagos
+    CoordinateV: "006\xB034\u203238.0000\u2033N"
+    CoordinateH: "003\xB019\u203216.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Nigeria
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Sharm el Sheikh
+    CoordinateV: "027\xB058\u203238.0000\u2033N"
+    CoordinateH: "034\xB023\u203241.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Egitto
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Marrakech Menara
+    CoordinateV: "031\xB036\u203231.0000\u2033N"
+    CoordinateH: "008\xB002\u203227.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Marocco
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Tunisi Cartagine
+    CoordinateV: "036\xB051\u203204.0000\u2033N"
+    CoordinateH: "010\xB013\u203237.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Tunisia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Hurghada
+    CoordinateV: "027\xB010\u203241.0000\u2033N"
+    CoordinateH: "033\xB047\u203257.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Egitto
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Addis Abeba
+    CoordinateV: "008\xB058\u203240.0000\u2033N"
+    CoordinateH: "038\xB047\u203258.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Etiopia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Casablanca
+    CoordinateV: "033\xB021\u203251.0000\u2033N"
+    CoordinateH: "007\xB034\u203254.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Marocco
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Singapore Changi
+    CoordinateV: "001\xB021\u203233.1600\u2033N"
+    CoordinateH: "103\xB059\u203221.5700\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Singapore
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Bangalore
+    CoordinateV: "013\xB011\u203256.0000\u2033N"
+    CoordinateH: "077\xB042\u203220.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: India
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Mumbai
+    CoordinateV: "019\xB005\u203230.0000\u2033N"
+    CoordinateH: "072\xB051\u203258.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: India
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Incheon
+    CoordinateV: "037\xB026\u203250.5800\u2033N"
+    CoordinateH: "126\xB027\u203209.5100\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Corea del Sud
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Hyderabad
+    CoordinateV: "017\xB013\u203248.0000\u2033N"
+    CoordinateH: "078\xB025\u203255.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: India
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Medan
+    CoordinateV: "003\xB038\u203232.4700\u2033N"
+    CoordinateH: "098\xB053\u203207.2900\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Indonesia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Delhi
+    CoordinateV: "028\xB034\u203207.0000\u2033N"
+    CoordinateH: "077\xB006\u203244.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: India
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Mascate
+    CoordinateV: "023\xB035\u203234.0000\u2033N"
+    CoordinateH: "058\xB016\u203254.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Oman
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Dubai
+    CoordinateV: "024\xB055\u203206.0000\u2033N"
+    CoordinateH: "055\xB010\u203232.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Emirati Arabi Uniti
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Hamad
+    CoordinateV: "025\xB016\u203223.0000\u2033N"
+    CoordinateH: "051\xB026\u203233.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Qatar
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Hong Kong
+    CoordinateV: "022\xB018\u203232.0000\u2033N"
+    CoordinateH: "113\xB054\u203253.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Cina
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Tokyo Haneda
+    CoordinateV: "035\xB033\u203212.0000\u2033N"
+    CoordinateH: "139\xB046\u203252.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Giappone
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Kochi
+    CoordinateV: "010\xB009\u203207.0000\u2033N"
+    CoordinateH: "076\xB024\u203207.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: India
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Calcutta
+    CoordinateV: "022\xB039\u203217.0000\u2033N"
+    CoordinateH: "088\xB026\u203248.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: India
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Jakarta
+    CoordinateV: "006\xB007\u203232.0000\u2033S"
+    CoordinateH: "106\xB039\u203221.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Indonesia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Izmir
+    CoordinateV: "038\xB017\u203233.0000\u2033N"
+    CoordinateH: "027\xB009\u203225.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Turchia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Chitose
+    CoordinateV: "042\xB046\u203231.0000\u2033N"
+    CoordinateH: "141\xB041\u203233.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Giappone
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Bali
+    CoordinateV: "008\xB044\u203253.0000\u2033S"
+    CoordinateH: "115\xB010\u203203.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Indonesia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Sultan Hasanuddin
+    CoordinateV: "005\xB003\u203225.2000\u2033S"
+    CoordinateH: "119\xB033\u203208.9900\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Indonesia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Bangkok
+    CoordinateV: "013\xB054\u203252.0000\u2033N"
+    CoordinateH: "100\xB036\u203220.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Thailandia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Nagoya
+    CoordinateV: "034\xB051\u203230.0000\u2033N"
+    CoordinateH: "136\xB048\u203219.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Giappone
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Osaka
+    CoordinateV: "034\xB025\u203244.0000\u2033N"
+    CoordinateH: "135\xB014\u203226.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Giappone
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Narita
+    CoordinateV: "035\xB045\u203253.6400\u2033N"
+    CoordinateH: "140\xB023\u203218.4200\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Giappone
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Ankara
+    CoordinateV: "040\xB007\u203241.0000\u2033N"
+    CoordinateH: "032\xB059\u203242.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Turchia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Abu Dhabi
+    CoordinateV: "024\xB025\u203259.0000\u2033N"
+    CoordinateH: "054\xB039\u203204.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: EAU
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Tel Aviv
+    CoordinateV: "032\xB000\u203234.0000\u2033N"
+    CoordinateH: "034\xB053\u203208.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Israele
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Kuala Lumpur
+    CoordinateV: "002\xB044\u203244.0000\u2033N"
+    CoordinateH: "101\xB042\u203235.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Malesia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Taiwan Taoyuan
+    CoordinateV: "025\xB004\u203235.0000\u2033N"
+    CoordinateH: "121\xB013\u203226.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Taiwan
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Gimpo
+    CoordinateV: "037\xB033\u203225.0000\u2033N"
+    CoordinateH: "126\xB047\u203251.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Corea del Sud
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto del Bahrain
+    CoordinateV: "026\xB016\u203217.0000\u2033N"
+    CoordinateH: "050\xB037\u203258.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Bahrain
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Ahmedabad
+    CoordinateV: "023\xB004\u203238.0000\u2033N"
+    CoordinateH: "072\xB038\u203205.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: India
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Riyad
+    CoordinateV: "024\xB057\u203228.0000\u2033N"
+    CoordinateH: "046\xB041\u203256.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Arabia Saudita
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Dammam
+    CoordinateV: "026\xB028\u203216.0000\u2033N"
+    CoordinateH: "049\xB047\u203252.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Arabia Saudita
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Fukuoka
+    CoordinateV: "033\xB035\u203204.0000\u2033N"
+    CoordinateH: "130\xB027\u203206.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Giappone
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Madras
+    CoordinateV: "012\xB058\u203256.0000\u2033N"
+    CoordinateH: "080\xB009\u203249.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: India
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Dhaka
+    CoordinateV: "023\xB050\u203236.0500\u2033N"
+    CoordinateH: "090\xB023\u203252.0200\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Bangladesh
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Penang
+    CoordinateV: "005\xB017\u203250.0000\u2033N"
+    CoordinateH: "100\xB016\u203236.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Malesia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Noi Bai
+    CoordinateV: "021\xB013\u203216.0000\u2033N"
+    CoordinateH: "105\xB048\u203226.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Vietnam
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Antalya
+    CoordinateV: "036\xB055\u203200.0000\u2033N"
+    CoordinateH: "030\xB048\u203200.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Turchia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Okinawa
+    CoordinateV: "026\xB011\u203245.0000\u2033N"
+    CoordinateH: "127\xB038\u203245.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Giappone
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Osaka
+    CoordinateV: "034\xB025\u203244.0000\u2033N"
+    CoordinateH: "135\xB014\u203226.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Giappone
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Da Nang
+    CoordinateV: "016\xB002\u203238.0000\u2033N"
+    CoordinateH: "108\xB011\u203258.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Vietnam
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Chiang Mai
+    CoordinateV: "018\xB046\u203200.0000\u2033N"
+    CoordinateH: "098\xB057\u203245.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Thailandia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Kota Kinabalu
+    CoordinateV: "005\xB056\u203241.0000\u2033N"
+    CoordinateH: "116\xB003\u203211.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Malesia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Guangzhou Baiyun
+    CoordinateV: "023\xB023\u203224.0000\u2033N"
+    CoordinateH: "113\xB018\u203230.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Cina
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Sabiha G\xF6k\xE7en"
+    CoordinateV: "040\xB053\u203254.0000\u2033N"
+    CoordinateH: "029\xB018\u203233.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Turchia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Don Mueang
+    CoordinateV: "013\xB054\u203252.0000\u2033N"
+    CoordinateH: "100\xB036\u203220.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Thailandia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Ho Chi Minh City
+    CoordinateV: "010\xB046\u203221.0000\u2033N"
+    CoordinateH: "107\xB002\u203243.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Vietnam
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Phuket
+    CoordinateV: "008\xB006\u203245.0000\u2033N"
+    CoordinateH: "098\xB018\u203233.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Thailandia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Kuwait
+    CoordinateV: "029\xB013\u203235.0000\u2033N"
+    CoordinateH: "047\xB058\u203208.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Kuwait
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Shanghai Pudong
+    CoordinateV: "031\xB008\u203242.0000\u2033N"
+    CoordinateH: "121\xB047\u203236.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Cina
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Pechino
+    CoordinateV: "040\xB004\u203224.0000\u2033N"
+    CoordinateH: "116\xB035\u203254.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Cina
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Kathmandu
+    CoordinateV: "027\xB041\u203247.0000\u2033N"
+    CoordinateH: "085\xB021\u203232.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Nepal
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Cebu
+    CoordinateV: "010\xB018\u203248.0000\u2033N"
+    CoordinateH: "123\xB058\u203258.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Filippine
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Jeddah
+    CoordinateV: "021\xB039\u203242.1000\u2033N"
+    CoordinateH: "039\xB010\u203222.9000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Arabia Saudita
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Manila
+    CoordinateV: "014\xB030\u203231.0000\u2033N"
+    CoordinateH: "121\xB001\u203210.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Filippine
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Brisbane
+    CoordinateV: "027\xB023\u203200.0000\u2033S"
+    CoordinateH: "153\xB007\u203205.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Australia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Melbourne
+    CoordinateV: "037\xB040\u203224.0000\u2033S"
+    CoordinateH: "144\xB050\u203236.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Australia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Sydney
+    CoordinateV: "033\xB056\u203254.0000\u2033S"
+    CoordinateH: "151\xB010\u203234.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Australia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Perth
+    CoordinateV: "031\xB056\u203225.0000\u2033S"
+    CoordinateH: "115\xB058\u203201.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Australia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Tallinn
+    CoordinateV: "059\xB024\u203259.0000\u2033N"
+    CoordinateH: "024\xB047\u203257.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Estonia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Ufa
+    CoordinateV: "054\xB033\u203204.0000\u2033N"
+    CoordinateH: "055\xB052\u203205.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Russia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Zurigo
+    CoordinateV: "047\xB027\u203230.0000\u2033N"
+    CoordinateH: "008\xB032\u203253.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Svizzera
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Atene
+    CoordinateV: "037\xB056\u203211.0000\u2033N"
+    CoordinateH: "023\xB056\u203235.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Grecia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Wroc\u0142aw"
+    CoordinateV: "051\xB006\u203234.0000\u2033N"
+    CoordinateH: "016\xB052\u203249.0000\u2033E\uFEFF"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Polonia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Malta
+    CoordinateV: "035\xB051\u203227.0000\u2033N"
+    CoordinateH: "014\xB028\u203239.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Malta
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Porto
+    CoordinateV: "041\xB014\u203208.0000\u2033N"
+    CoordinateH: "008\xB040\u203241.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Portogallo
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Helsinki Vantaa
+    CoordinateV: "060\xB019\u203202.0000\u2033N"
+    CoordinateH: "024\xB057\u203248.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Finlandia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Kiev Zhuliany
+    CoordinateV: "050\xB024\u203240.3128\u2033N"
+    CoordinateH: "030\xB026\u203247.8824\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Ucraina
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Fuerteventura
+    CoordinateV: "028\xB027\u203210.0000\u2033N"
+    CoordinateH: "013\xB051\u203250.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Spagna
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Alicante
+    CoordinateV: "038\xB016\u203256.0000\u2033N"
+    CoordinateH: "000\xB033\u203229.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Spagna
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Amsterdam
+    CoordinateV: "052\xB018\u203229.0000\u2033N"
+    CoordinateH: "004\xB045\u203251.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Paesi Bassi
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Gran Canaria
+    CoordinateV: "027\xB055\u203200.0000\u2033N"
+    CoordinateH: "015\xB023\u203200.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Spagna
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Tenerife Nord
+    CoordinateV: "028\xB029\u203200.0000\u2033N"
+    CoordinateH: "016\xB020\u203205.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Spagna
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Pulkovo
+    CoordinateV: "059\xB048\u203201.0000\u2033N"
+    CoordinateH: "030\xB015\u203245.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Russia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Dublino
+    CoordinateV: "053\xB025\u203217.0000\u2033N"
+    CoordinateH: "006\xB016\u203212.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Irlanda
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Copenhagen Kastrup
+    CoordinateV: "055\xB037\u203243.0000\u2033N"
+    CoordinateH: "012\xB038\u203249.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Danimarca
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Mosca Vnukovo
+    CoordinateV: "055\xB034\u203246.0000\u2033N"
+    CoordinateH: "037\xB016\u203203.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Russia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Oslo Gardermoen
+    CoordinateV: "060\xB012\u203208.0000\u2033N"
+    CoordinateH: "011\xB005\u203203.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Norvegia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di London City
+    CoordinateV: "051\xB030\u203219.0000\u2033N"
+    CoordinateH: "000\xB003\u203219.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Regno Unito
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Danzica Lech Wa\u0142\u0119sa"
+    CoordinateV: "054\xB022\u203239.0000\u2033N"
+    CoordinateH: "018\xB027\u203258.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Polonia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Praga
+    CoordinateV: "050\xB006\u203203.0000\u2033N"
+    CoordinateH: "014\xB015\u203236.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Repubblica Ceca
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Kiev Boryspil
+    CoordinateV: "050\xB020\u203242.0000\u2033N"
+    CoordinateH: "030\xB053\u203241.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Ucraina
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Belgrado Nikola Tesla
+    CoordinateV: "044\xB049\u203209.7800\u2033N"
+    CoordinateH: "020\xB018\u203225.4400\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Serbia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Riga
+    CoordinateV: "056\xB055\u203215.0000\u2033N"
+    CoordinateH: "023\xB058\u203215.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Lettonia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Istanbul
+    CoordinateV: "040\xB058\u203253.0000\u2033N"
+    CoordinateH: "028\xB049\u203205.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Turchia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Vienna
+    CoordinateV: "048\xB006\u203237.0000\u2033N"
+    CoordinateH: "016\xB034\u203211.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Austria
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Bilbao
+    CoordinateV: "043\xB018\u203204.0000\u2033N"
+    CoordinateH: "002\xB054\u203238.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Spagna
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Monaco
+    CoordinateV: "048\xB021\u203214.0000\u2033N"
+    CoordinateH: "011\xB047\u203210.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Germania
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Madrid \u2013 Barajas"
+    CoordinateV: "040\xB029\u203236.0000\u2033N"
+    CoordinateH: "003\xB034\u203200.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Spagna
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Palma di Maiorca
+    CoordinateV: "039\xB033\u203206.0000\u2033N"
+    CoordinateH: "002\xB044\u203219.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Spagna
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Bratislava
+    CoordinateV: "048\xB010\u203212.0000\u2033N"
+    CoordinateH: "017\xB012\u203245.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Slovacchia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Varsavia Chopin
+    CoordinateV: "052\xB009\u203257.0000\u2033N"
+    CoordinateH: "020\xB058\u203202.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Polonia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Cracovia
+    CoordinateV: "050\xB004\u203240.0000\u2033N"
+    CoordinateH: "019\xB047\u203205.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Polonia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Vilnius
+    CoordinateV: "054\xB038\u203213.0000\u2033N"
+    CoordinateH: "025\xB017\u203216.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Lituania
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Minsk
+    CoordinateV: "053\xB053\u203200.0000\u2033N"
+    CoordinateH: "028\xB001\u203205.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Bielorussia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Bari
+    CoordinateV: "041\xB008\u203219.8800\u2033N"
+    CoordinateH: "016\xB045\u203238.1400\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Italia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Stoccarda
+    CoordinateV: "048\xB041\u203224.0000\u2033N"
+    CoordinateH: "009\xB013\u203219.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Germania
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Mosca Domodedovo
+    CoordinateV: "055\xB024\u203231.0000\u2033N"
+    CoordinateH: "037\xB054\u203223.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Russia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Londra Heathrow
+    CoordinateV: "051\xB028\u203239.0000\u2033N"
+    CoordinateH: "000\xB027\u203241.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Regno Unito
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Stoccolma Arlanda
+    CoordinateV: "059\xB039\u203207.0000\u2033N"
+    CoordinateH: "017\xB055\u203207.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Svezia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Glasgow
+    CoordinateV: "055\xB052\u203219.0000\u2033N"
+    CoordinateH: "004\xB025\u203259.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Regno Unito
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Colonia Bonn
+    CoordinateV: "050\xB051\u203257.0000\u2033N"
+    CoordinateH: "007\xB008\u203234.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Germania
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Napoli
+    CoordinateV: "040\xB053\u203200.0000\u2033N"
+    CoordinateH: "014\xB017\u203200.0000\u2033E\uFEFF"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Italia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Valencia
+    CoordinateV: "039\xB029\u203222.0000\u2033N"
+    CoordinateH: "000\xB028\u203254.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Spagna
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Hannover
+    CoordinateV: "052\xB027\u203239.0000\u2033N"
+    CoordinateH: "009\xB041\u203206.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Germania
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Francoforte sul Meno
+    CoordinateV: "050\xB001\u203258.9000\u2033N"
+    CoordinateH: "008\xB034\u203213.6400\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Germania
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Bruxelles
+    CoordinateV: "050\xB054\u203205.0000\u2033N"
+    CoordinateH: "004\xB029\u203204.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Belgio
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Roma \u2013 Fiumicino"
+    CoordinateV: "041\xB048\u203201.0000\u2033N"
+    CoordinateH: "012\xB014\u203220.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Italia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Tenerife Sud
+    CoordinateV: "028\xB002\u203240.0000\u2033N"
+    CoordinateH: "016\xB034\u203220.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Spagna
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Mosca Sheremetyevo
+    CoordinateV: "055\xB058\u203222.0000\u2033N"
+    CoordinateH: "037\xB024\u203253.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Russia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Lamezia Terme
+    CoordinateV: "038\xB054\u203200.0000\u2033N"
+    CoordinateH: "016\xB014\u203200.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Italia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Zagabria
+    CoordinateV: "045\xB044\u203235.0000\u2033N"
+    CoordinateH: "016\xB004\u203208.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Croazia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Amburgo
+    CoordinateV: "053\xB037\u203255.0000\u2033N"
+    CoordinateH: "009\xB059\u203222.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Germania
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Barcellona \u2013 El Prat"
+    CoordinateV: "041\xB017\u203249.0000\u2033N"
+    CoordinateH: "002\xB004\u203242.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Spagna
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Milano Linate
+    CoordinateV: "045\xB026\u203258.0000\u2033N"
+    CoordinateH: "009\xB016\u203242.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Italia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di M\xE1laga"
+    CoordinateV: "036\xB040\u203245.0000\u2033N"
+    CoordinateH: "004\xB029\u203244.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Spagna
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Londra Gatwick
+    CoordinateV: "051\xB008\u203253.0000\u2033N"
+    CoordinateH: "000\xB011\u203225.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Regno Unito
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Eindhoven
+    CoordinateV: "051\xB027\u203200.0000\u2033N"
+    CoordinateH: "005\xB022\u203228.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Paesi Bassi
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Bergamo
+    CoordinateV: "045\xB039\u203255.6900\u2033N"
+    CoordinateH: "009\xB041\u203258.1300\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Italia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di D\xFCsseldorf"
+    CoordinateV: "051\xB017\u203222.0000\u2033N"
+    CoordinateH: "006\xB046\u203200.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Germania
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Keflavik
+    CoordinateV: "063\xB059\u203206.0000\u2033N"
+    CoordinateH: "022\xB036\u203220.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Islanda
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Tolosa-Blagnac
+    CoordinateV: "043\xB038\u203206.0000\u2033N"
+    CoordinateH: "001\xB022\u203204.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Francia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Francoforte-Hahn
+    CoordinateV: "049\xB056\u203255.0000\u2033N"
+    CoordinateH: "007\xB015\u203250.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Germania
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Dortmund
+    CoordinateV: "051\xB031\u203206.0000\u2033N"
+    CoordinateH: "007\xB036\u203244.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Germania
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Venezia Marco Polo
+    CoordinateV: "045\xB030\u203219.0000\u2033N"
+    CoordinateH: "012\xB021\u203207.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Italia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Salonicco Macedonia
+    CoordinateV: "040\xB031\u203211.0000\u2033N"
+    CoordinateH: "022\xB058\u203215.3000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Grecia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Palermo
+    CoordinateV: "038\xB010\u203253.0000\u2033N"
+    CoordinateH: "013\xB005\u203258.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Italia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Liverpool John Lennon
+    CoordinateV: "053\xB020\u203201.0000\u2033N"
+    CoordinateH: "002\xB050\u203259.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Regno Unito
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di EuroAirport
+    CoordinateV: "047\xB035\u203223.0000\u2033N"
+    CoordinateH: "007\xB031\u203245.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Francia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Malpensa
+    CoordinateV: "045\xB037\u203248.0000\u2033N"
+    CoordinateH: "008\xB043\u203223.0000\u2033E\uFEFF"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Italia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Birmingham
+    CoordinateV: "052\xB027\u203214.0000\u2033N"
+    CoordinateH: "001\xB044\u203253.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Regno Unito
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Bristol
+    CoordinateV: "051\xB022\u203258.0000\u2033N"
+    CoordinateH: "002\xB043\u203209.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Regno Unito
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Nizza
+    CoordinateV: "043\xB039\u203255.0000\u2033N"
+    CoordinateH: "007\xB012\u203254.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Francia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Siviglia
+    CoordinateV: "037\xB025\u203205.0000\u2033N"
+    CoordinateH: "005\xB053\u203256.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Spagna
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Lisbona Portela
+    CoordinateV: "038\xB046\u203227.0000\u2033N"
+    CoordinateH: "009\xB008\u203203.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Portogallo
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Edimburgo
+    CoordinateV: "055\xB057\u203200.0000\u2033N"
+    CoordinateH: "003\xB022\u203221.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Regno Unito
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Bucarest
+    CoordinateV: "044\xB033\u203220.0000\u2033N"
+    CoordinateH: "026\xB006\u203208.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Romania
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Ginevra
+    CoordinateV: "046\xB014\u203211.0000\u2033N"
+    CoordinateH: "006\xB006\u203226.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Svizzera
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Parigi Charles de Gaulle
+    CoordinateV: "049\xB000\u203235.0000\u2033N"
+    CoordinateH: "002\xB032\u203252.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Francia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Faro
+    CoordinateV: "037\xB001\u203206.0000\u2033N"
+    CoordinateH: "007\xB057\u203210.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Portogallo
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Parigi Orly
+    CoordinateV: "048\xB043\u203224.0000\u2033N"
+    CoordinateH: "002\xB022\u203246.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Francia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Sofia
+    CoordinateV: "042\xB041\u203242.0000\u2033N"
+    CoordinateH: "023\xB024\u203230.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Bulgaria
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Bologna
+    CoordinateV: "044\xB031\u203248.0000\u2033N"
+    CoordinateH: "011\xB017\u203236.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Italia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Marsiglia Provenza
+    CoordinateV: "043\xB026\u203212.0000\u2033N"
+    CoordinateH: "005\xB012\u203254.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Francia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Katowice
+    CoordinateV: "050\xB028\u203227.0000\u2033N"
+    CoordinateH: "019\xB004\u203248.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Polonia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Budapest
+    CoordinateV: "047\xB026\u203222.0000\u2033N"
+    CoordinateH: "019\xB015\u203242.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Ungheria
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Leeds Bradford
+    CoordinateV: "053\xB051\u203257.0000\u2033N"
+    CoordinateH: "001\xB039\u203238.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Regno Unito
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Catania-Fontanarossa
+    CoordinateV: "037\xB028\u203200.4100\u2033N"
+    CoordinateH: "015\xB003\u203250.0400\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Italia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di South Charlero
+    CoordinateV: "050\xB027\u203236.0000\u2033N"
+    CoordinateH: "004\xB027\u203210.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Belgio
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Lione Saint-Exup\xE9ry"
+    CoordinateV: "045\xB043\u203232.0000\u2033N"
+    CoordinateH: "005\xB004\u203251.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Francia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Varsavia Modlin
+    CoordinateV: "052\xB027\u203204.0000\u2033N"
+    CoordinateH: "020\xB039\u203206.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Polonia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Roma \u2013 Ciampino"
+    CoordinateV: "041\xB047\u203258.0000\u2033N"
+    CoordinateH: "012\xB035\u203250.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Italia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Rodi
+    CoordinateV: "036\xB024\u203219.0000\u2033N"
+    CoordinateH: "028\xB005\u203210.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Grecia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Pisa
+    CoordinateV: "043\xB040\u203258.0000\u2033N"
+    CoordinateH: "010\xB023\u203244.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Italia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Manchester
+    CoordinateV: "053\xB021\u203215.0000\u2033N"
+    CoordinateH: "002\xB016\u203230.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Regno Unito
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Londra Stansted
+    CoordinateV: "051\xB053\u203206.0000\u2033N"
+    CoordinateH: "000\xB014\u203206.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Regno Unito
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Nantes Atlantique
+    CoordinateV: "047\xB009\u203228.0000\u2033N"
+    CoordinateH: "001\xB036\u203229.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Francia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Treviso-Sant\u2019Angelo"
+    CoordinateV: "045\xB039\u203203.0000\u2033N"
+    CoordinateH: "012\xB011\u203252.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Italia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Berlino-Tegel
+    CoordinateV: "052\xB033\u203240.0000\u2033N"
+    CoordinateH: "013\xB017\u203222.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Germania
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Corf\xF9"
+    CoordinateV: "039\xB036\u203207.0000\u2033N"
+    CoordinateH: "019\xB054\u203244.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Grecia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Spalato
+    CoordinateV: "043\xB032\u203220.0000\u2033N"
+    CoordinateH: "016\xB017\u203253.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Croazia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Londra Luton
+    CoordinateV: "051\xB052\u203229.0000\u2033N"
+    CoordinateH: "000\xB022\u203206.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Regno Unito
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Parigi Beauvais Till\xE9"
+    CoordinateV: "049\xB027\u203216.0000\u2033N"
+    CoordinateH: "002\xB006\u203246.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Francia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Berlino-Sch\xF6nefeld"
+    CoordinateV: "052\xB021\u203244.0900\u2033N"
+    CoordinateH: "013\xB030\u203202.4200\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Germania
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Bordeaux-M\xE9rignac"
+    CoordinateV: "044\xB049\u203243.0000\u2033N"
+    CoordinateH: "000\xB042\u203255.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Francia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Heraklion
+    CoordinateV: "035\xB020\u203223.0000\u2033N"
+    CoordinateH: "025\xB010\u203249.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Grecia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Kos
+    CoordinateV: "036\xB047\u203236.0100\u2033N"
+    CoordinateH: "027\xB005\u203230.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Grecia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Santorini
+    CoordinateV: "036\xB023\u203257.0000\u2033N"
+    CoordinateH: "025\xB028\u203246.0000\u2033E"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Grecia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Portland
+    CoordinateV: "043\xB038\u203246.0000\u2033N"
+    CoordinateH: "070\xB018\u203233.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Oregon,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Indianapolis
+    CoordinateV: "039\xB050\u203237.0000\u2033N"
+    CoordinateH: "085\xB053\u203249.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Indiana,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Tampa
+    CoordinateV: "027\xB058\u203247.3400\u2033N"
+    CoordinateH: "082\xB032\u203205.4400\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Florida,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di John Wayne
+    CoordinateV: "033\xB040\u203232.0000\u2033N"
+    CoordinateH: "117\xB052\u203206.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: California,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Pittsburgh
+    CoordinateV: "040\xB029\u203229.0000\u2033N"
+    CoordinateH: "080\xB013\u203258.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Pennsylvania,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Dallas Love Field
+    CoordinateV: "032\xB050\u203250.0000\u2033N"
+    CoordinateH: "096\xB051\u203206.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Texas,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Vancouver
+    CoordinateV: "049\xB011\u203241.0000\u2033N"
+    CoordinateH: "123\xB011\u203202.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Canada
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di San Jose
+    CoordinateV: "037\xB021\u203246.0000\u2033N"
+    CoordinateH: "121\xB055\u203245.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: California,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Raleigh
+    CoordinateV: "035\xB052\u203240.0000\u2033N"
+    CoordinateH: "078\xB047\u203215.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: North Carolina,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Houston Hobby
+    CoordinateV: "029\xB059\u203204.0000\u2033N"
+    CoordinateH: "095\xB020\u203229.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Texas,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Detroit
+    CoordinateV: "042\xB012\u203245.0000\u2033N"
+    CoordinateH: "083\xB021\u203212.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Michigan,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di San Antonio
+    CoordinateV: "029\xB032\u203201.0000\u2033N"
+    CoordinateH: "098\xB028\u203211.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Texas,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Sacramento
+    CoordinateV: "038\xB041\u203244.0000\u2033N"
+    CoordinateH: "121\xB035\u203227.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: California,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Las Vegas
+    CoordinateV: "036\xB004\u203248.0000\u2033N"
+    CoordinateH: "115\xB009\u203208.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Nevada,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Baltimora
+    CoordinateV: "039\xB010\u203241.6000\u2033N"
+    CoordinateH: "076\xB040\u203203.1500\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Maryland,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Nashville
+    CoordinateV: "036\xB007\u203236.0000\u2033N"
+    CoordinateH: "086\xB040\u203255.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Tennessee,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Salt Lake City
+    CoordinateV: "040\xB047\u203218.0000\u2033N"
+    CoordinateH: "111\xB058\u203240.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Utah,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Minneapolis
+    CoordinateV: "044\xB052\u203255.0000\u2033N"
+    CoordinateH: "093\xB013\u203218.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Minnesota,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di San Francisco
+    CoordinateV: "037\xB037\u203208.0000\u2033N"
+    CoordinateH: "122\xB022\u203230.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: California,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di San Diego
+    CoordinateV: "032\xB044\u203201.0000\u2033N"
+    CoordinateH: "117\xB011\u203223.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: California,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Reagan
+    CoordinateV: "038\xB051\u203214.4300\u2033N"
+    CoordinateH: "077\xB002\u203231.0600\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Washington DC,Stati Uniti
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Denver
+    CoordinateV: "039\xB051\u203242.0000\u2033N"
+    CoordinateH: "104\xB040\u203223.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Colorado,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Phoenix
+    CoordinateV: "033\xB026\u203203.0000\u2033N"
+    CoordinateH: "112\xB000\u203242.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Arizona,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Dulles
+    CoordinateV: "038\xB056\u203240.0000\u2033N"
+    CoordinateH: "077\xB027\u203221.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Washington DC,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Austin
+    CoordinateV: "030\xB011\u203240.0000\u2033N"
+    CoordinateH: "097\xB040\u203212.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Texas,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Houston
+    CoordinateV: "029\xB059\u203204.0000\u2033N"
+    CoordinateH: "095\xB020\u203229.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Texas,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Boston Logan
+    CoordinateV: "042\xB021\u203247.0000\u2033N"
+    CoordinateH: "071\xB000\u203223.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Maine,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Atlanta
+    CoordinateV: "033\xB038\u203212.0000\u2033N"
+    CoordinateH: "084\xB025\u203241.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Georgia,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di John F Kennedy
+    CoordinateV: "040\xB038\u203223.0000\u2033N"
+    CoordinateH: "073\xB046\u203244.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: New York,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Montreal
+    CoordinateV: "045\xB028\u203214.0000\u2033N"
+    CoordinateH: "073\xB044\u203227.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Canada
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Orlando
+    CoordinateV: "028\xB025\u203246.0000\u2033N"
+    CoordinateH: "081\xB018\u203232.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Florida,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Calgary
+    CoordinateV: "051\xB006\u203250.0000\u2033N"
+    CoordinateH: "114\xB001\u203213.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Canada
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Chicago Midway
+    CoordinateV: "041\xB047\u203210.0000\u2033N"
+    CoordinateH: "087\xB045\u203209.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Illinois,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Oakland
+    CoordinateV: "037\xB043\u203217.0000\u2033N"
+    CoordinateH: "122\xB013\u203215.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: California,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Miami
+    CoordinateV: "025\xB047\u203236.0000\u2033N"
+    CoordinateH: "080\xB017\u203246.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Florida,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Toronto Pearson
+    CoordinateV: "043\xB040\u203238.0000\u2033N"
+    CoordinateH: "079\xB037\u203250.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Canada
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Fort Lauderdale
+    CoordinateV: "026\xB004\u203221.0000\u2033N"
+    CoordinateH: "080\xB009\u203210.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Florida,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Seattle
+    CoordinateV: "047\xB026\u203256.0000\u2033N"
+    CoordinateH: "122\xB018\u203234.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Washington,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Los Angeles
+    CoordinateV: "033\xB056\u203233.0000\u2033N"
+    CoordinateH: "118\xB024\u203229.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: California,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Chicago O\u2019Hare"
+    CoordinateV: "041\xB058\u203243.0000\u2033N"
+    CoordinateH: "087\xB054\u203217.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Illinois,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Honolulu
+    CoordinateV: "021\xB019\u203207.0000\u2033N"
+    CoordinateH: "157\xB055\u203221.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Hawaii,Stati Uniti
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Filadelfia
+    CoordinateV: "039\xB052\u203219.0000\u2033N"
+    CoordinateH: "075\xB014\u203228.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Pennsylvania,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Charlotte
+    CoordinateV: "035\xB012\u203250.0000\u2033N"
+    CoordinateH: "080\xB056\u203235.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Carolina del Nord,Stati Uniti
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di New Orleans
+    CoordinateV: "029\xB059\u203236.0000\u2033N"
+    CoordinateH: "090\xB015\u203229.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Louisiana,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Newark
+    CoordinateV: "040\xB041\u203233.0000\u2033N"
+    CoordinateH: "074\xB010\u203207.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: New Jersey,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Kansas City
+    CoordinateV: "039\xB017\u203251.0000\u2033N"
+    CoordinateH: "094\xB042\u203250.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Kansas,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Laguardia
+    CoordinateV: "040\xB046\u203238.0000\u2033N"
+    CoordinateH: "073\xB052\u203221.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: New York,USA
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Montevideo
+    CoordinateV: "034\xB050\u203218.0000\u2033S"
+    CoordinateH: "056\xB001\u203251.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Uruguay
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Afonso Pena
+    CoordinateV: "025\xB031\u203254.0000\u2033S"
+    CoordinateH: "049\xB010\u203234.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Guayaquil
+    CoordinateV: "002\xB009\u203228.0000\u2033S"
+    CoordinateH: "079\xB053\u203204.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Ecuador
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Medellin
+    CoordinateV: "006\xB010\u203202.0000\u2033N"
+    CoordinateH: "075\xB025\u203236.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Colombia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Bogot\xE0"
+    CoordinateV: "004\xB042\u203205.7700\u2033N"
+    CoordinateH: "074\xB008\u203249.0400\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Colombia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Recife
+    CoordinateV: "008\xB004\u203203.0000\u2033S"
+    CoordinateH: "034\xB055\u203200.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Viracopos
+    CoordinateV: "023\xB000\u203227.0000\u2033S"
+    CoordinateH: "047\xB008\u203204.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Monterrey
+    CoordinateV: "025\xB046\u203242.0000\u2033N"
+    CoordinateH: "100\xB006\u203223.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Messico
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Carriel Sur
+    CoordinateV: "036\xB046\u203221.0000\u2033S"
+    CoordinateH: "073\xB003\u203247.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Cile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Manau
+    CoordinateV: "003\xB002\u203240.0000\u2033S"
+    CoordinateH: "059\xB056\u203228.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Quito
+    CoordinateV: "000\xB008\u203228.0000\u2033S"
+    CoordinateH: "078\xB029\u203217.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Ecuador
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Brasilia
+    CoordinateV: "015\xB052\u203216.0000\u2033S"
+    CoordinateH: "047\xB055\u203207.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Belo Horizonte
+    CoordinateV: "019\xB038\u203202.0000\u2033S"
+    CoordinateH: "043\xB058\u203208.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di El Tepual
+    CoordinateV: "041\xB026\u203219.0000\u2033S"
+    CoordinateH: "073\xB005\u203238.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Cile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Belem
+    CoordinateV: "001\xB023\u203205.0000\u2033S"
+    CoordinateH: "048\xB028\u203244.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Santos Dumont
+    CoordinateV: "022\xB054\u203236.0000\u2033S"
+    CoordinateH: "043\xB009\u203245.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Buenos Aires
+    CoordinateV: "034\xB049\u203220.0000\u2033S"
+    CoordinateH: "058\xB032\u203209.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Argentina
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Tijuana
+    CoordinateV: "032\xB032\u203227.0000\u2033N"
+    CoordinateH: "116\xB058\u203212.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Messico
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Cartagena
+    CoordinateV: "010\xB026\u203231.3500\u2033N"
+    CoordinateH: "075\xB030\u203246.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Colombia
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Ezeiza
+    CoordinateV: "034\xB049\u203220.0000\u2033S"
+    CoordinateH: "058\xB032\u203209.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Argentina
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Cordoba
+    CoordinateV: "034\xB049\u203220.0000\u2033S"
+    CoordinateH: "058\xB032\u203209.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Argentina
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Rio de Janeiro-Gale\xE3o"
+    CoordinateV: "022\xB048\u203222.0000\u2033S"
+    CoordinateH: "043\xB014\u203237.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di San Paolo-Guarulhos
+    CoordinateV: "023\xB026\u203208.0000\u2033S"
+    CoordinateH: "046\xB028\u203223.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di San Paolo-Congonhas
+    CoordinateV: "023\xB037\u203240.0000\u2033S"
+    CoordinateH: "046\xB039\u203215.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Guadalajara
+    CoordinateV: "020\xB031\u203218.6100\u2033N"
+    CoordinateH: "103\xB018\u203240.1200\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Messico
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Citt\xE0 del Messico"
+    CoordinateV: "019\xB026\u203210.0000\u2033N"
+    CoordinateH: "099\xB004\u203219.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Messico
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Porto Alegre
+    CoordinateV: "029\xB059\u203240.0000\u2033S"
+    CoordinateH: "051\xB010\u203217.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Fortaleza
+    CoordinateV: "003\xB046\u203235.0000\u2033S"
+    CoordinateH: "038\xB031\u203253.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Lima
+    CoordinateV: "012\xB001\u203219.0000\u2033S"
+    CoordinateH: "077\xB006\u203252.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: "Per\xC3\xB9"
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Punta Cana
+    CoordinateV: "018\xB034\u203200.0000\u2033N"
+    CoordinateH: "068\xB021\u203207.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Repubblica Dominicana
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Santiago
+    CoordinateV: "033\xB023\u203234.0000\u2033S"
+    CoordinateH: "070\xB047\u203208.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Cile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Vitoria
+    CoordinateV: "042\xB052\u203258.0000\u2033N"
+    CoordinateH: "002\xB043\u203228.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Canc\xFAn"
+    CoordinateV: "021\xB002\u203211.0000\u2033N"
+    CoordinateH: "086\xB052\u203237.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Messico
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Goi\xE2nia"
+    CoordinateV: "016\xB037\u203257.0000\u2033S"
+    CoordinateH: "049\xB013\u203216.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: "Aeroporto di Florian\xF3polis"
+    CoordinateV: "027\xB040\u203213.0000\u2033S"
+    CoordinateH: "048\xB033\u203209.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Salvador
+    CoordinateV: "013\xB026\u203227.3700\u2033N"
+    CoordinateH: "089\xB003\u203220.7000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Greater Natal
+    CoordinateV: "005\xB046\u203208.0000\u2033S"
+    CoordinateH: "035\xB021\u203259.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Brasile
+    Continent: 
+    pinInstance: {fileID: 0}
+  - Iata: 
+    Name: Aeroporto di Panama City
+    CoordinateV: "009\xB004\u203217.0000\u2033N"
+    CoordinateH: "079\xB023\u203201.0000\u2033W"
+    DecimalCoordinateV: 0
+    DecimalCoordinateH: 0
+    Country: Panama
+    Continent: 
+    pinInstance: {fileID: 0}
+--- !u!114 &1975881392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975881389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcb09c99b42ded248be54f03fdfca108, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EarthFocus: {fileID: 552873220}
+  UIManager: {fileID: 1975881393}
+  PinManager: {fileID: 1975881391}
+  Regressor: {fileID: 1975881394}
+  StartAngle: {x: 180, y: 0}
+  EndAngle: {x: -16.7539, y: -41.1386}
+  StartDistance: 1500
+  EndDistance: 200
+  AnimationTranslateSpeed: 0.5
+  AnimationRotationSpeed: 1.5
+  InAppTranslateSpeed: 6
+  InAppRotationSpeed: 10
+  Earth: {fileID: 1000665062}
+--- !u!114 &1975881393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975881389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602ddabcff4e2424db0d08ed2036f024, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DestinationPanelView: {fileID: 670809306}
+  LoaderPanel: {fileID: 484738945}
+  LogoPanel: {fileID: 1050260684}
+  PinManager: {fileID: 1975881391}
+--- !u!114 &1975881394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975881389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 421595023763f2944a227e22520c6606, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PinManager: {fileID: 1975881391}
+  test: 4
+--- !u!114 &1975881395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975881389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ca92417da5ff446aa55b3d224c18e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParticleSystemPrefab: {fileID: 5545659821589276160, guid: 0892306b4a07dc946b72d0f828e3035d, type: 3}
+  ArchesContainer: {fileID: 52902739}
+  EarthTransform: {fileID: 1000665062}
+  test1: {x: 0, y: 0, z: 100}
+  test2: {x: 0, y: -100, z: 0}
+  hightTest: 0
+--- !u!1 &2016002750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2016002752}
+  - component: {fileID: 2016002751}
+  m_Layer: 0
+  m_Name: Aura Preset Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2016002751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016002750}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b142c931e4f39c429a012dc68ba0659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeShape:
+    shape: 0
+    fading:
+      falloffExponent: 3
+      xPositiveCubeFade: 0.25
+      xNegativeCubeFade: 0.25
+      yPositiveCubeFade: 0.25
+      yNegativeCubeFade: 0.25
+      zPositiveCubeFade: 0.25
+      zNegativeCubeFade: 0.25
+      angularConeFade: 0.5
+      distanceConeFade: 0.5
+      widthCylinderFade: 0.5
+      yNegativeCylinderFade: 0.25
+      yPositiveCylinderFade: 0.25
+      distanceSphereFade: 0.5
+  useAsLightProbesProxyVolume: 0
+  lightProbesMultiplier: 1
+  texture2DMask:
+    enable: 0
+    texture: {fileID: 0}
+    textureIndex: -1
+    transform:
+      space: 1
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  texture3DMask:
+    enable: 0
+    texture: {fileID: 0}
+    textureIndex: -1
+    transform:
+      space: 1
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  noiseMask:
+    enable: 1
+    speed: 0.15
+    transform:
+      space: 0
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0}
+      scale: {x: 3, y: 3, z: 3}
+  densityInjection:
+    enable: 1
+    strength: 0.2
+    useNoiseMask: 1
+    useNoiseMaskLevels: 1
+    noiseMaskLevelParameters:
+      levelLowThreshold: 0
+      levelHiThreshold: 1
+      outputLowValue: 0
+      outputHiValue: -1
+      contrast: 15
+      saturateOutputValues: 0
+    useTexture2DMask: 1
+    useTexture2DMaskLevels: 0
+    texture2DMaskLevelParameters:
+      levelLowThreshold: 0
+      levelHiThreshold: 1
+      outputLowValue: 0
+      outputHiValue: 1
+      contrast: 1
+      saturateOutputValues: 0
+    useTexture3DMask: 1
+    useTexture3DMaskLevels: 0
+    texture3DMaskLevelParameters:
+      levelLowThreshold: 0
+      levelHiThreshold: 1
+      outputLowValue: 0
+      outputHiValue: 1
+      contrast: 1
+      saturateOutputValues: 0
+  scatteringInjection:
+    enable: 0
+    strength: 0.25
+    useNoiseMask: 1
+    useNoiseMaskLevels: 1
+    noiseMaskLevelParameters:
+      levelLowThreshold: 0
+      levelHiThreshold: 1
+      outputLowValue: -1
+      outputHiValue: 1
+      contrast: 3
+      saturateOutputValues: 0
+    useTexture2DMask: 1
+    useTexture2DMaskLevels: 0
+    texture2DMaskLevelParameters:
+      levelLowThreshold: 0
+      levelHiThreshold: 1
+      outputLowValue: -1
+      outputHiValue: 1
+      contrast: 1
+      saturateOutputValues: 0
+    useTexture3DMask: 1
+    useTexture3DMaskLevels: 0
+    texture3DMaskLevelParameters:
+      levelLowThreshold: 0
+      levelHiThreshold: 1
+      outputLowValue: -1
+      outputHiValue: 1
+      contrast: 1
+      saturateOutputValues: 0
+  lightInjection:
+    injectionParameters:
+      enable: 0
+      strength: 1
+      useNoiseMask: 1
+      useNoiseMaskLevels: 1
+      noiseMaskLevelParameters:
+        levelLowThreshold: 0
+        levelHiThreshold: 1
+        outputLowValue: 0
+        outputHiValue: 1
+        contrast: 5
+        saturateOutputValues: 0
+      useTexture2DMask: 1
+      useTexture2DMaskLevels: 0
+      texture2DMaskLevelParameters:
+        levelLowThreshold: 0
+        levelHiThreshold: 1
+        outputLowValue: 0
+        outputHiValue: 1
+        contrast: 1
+        saturateOutputValues: 0
+      useTexture3DMask: 1
+      useTexture3DMaskLevels: 0
+      texture3DMaskLevelParameters:
+        levelLowThreshold: 0
+        levelHiThreshold: 1
+        outputLowValue: 0
+        outputHiValue: 1
+        contrast: 1
+        saturateOutputValues: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  tintInjection:
+    injectionParameters:
+      enable: 0
+      strength: 1
+      useNoiseMask: 1
+      useNoiseMaskLevels: 1
+      noiseMaskLevelParameters:
+        levelLowThreshold: 0
+        levelHiThreshold: 1
+        outputLowValue: 0
+        outputHiValue: 1
+        contrast: 5
+        saturateOutputValues: 0
+      useTexture2DMask: 1
+      useTexture2DMaskLevels: 0
+      texture2DMaskLevelParameters:
+        levelLowThreshold: 0
+        levelHiThreshold: 1
+        outputLowValue: 0
+        outputHiValue: 1
+        contrast: 1
+        saturateOutputValues: 0
+      useTexture3DMask: 1
+      useTexture3DMaskLevels: 0
+      texture3DMaskLevelParameters:
+        levelLowThreshold: 0
+        levelHiThreshold: 1
+        outputLowValue: 0
+        outputHiValue: 1
+        contrast: 1
+        saturateOutputValues: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  ambientInjection:
+    enable: 0
+    strength: 1
+    useNoiseMask: 1
+    useNoiseMaskLevels: 1
+    noiseMaskLevelParameters:
+      levelLowThreshold: 0
+      levelHiThreshold: 1
+      outputLowValue: 0
+      outputHiValue: 1
+      contrast: 5
+      saturateOutputValues: 0
+    useTexture2DMask: 1
+    useTexture2DMaskLevels: 0
+    texture2DMaskLevelParameters:
+      levelLowThreshold: 0
+      levelHiThreshold: 1
+      outputLowValue: 0
+      outputHiValue: 1
+      contrast: 1
+      saturateOutputValues: 0
+    useTexture3DMask: 1
+    useTexture3DMaskLevels: 0
+    texture3DMaskLevelParameters:
+      levelLowThreshold: 0
+      levelHiThreshold: 1
+      outputLowValue: 0
+      outputHiValue: 1
+      contrast: 1
+      saturateOutputValues: 0
+  boostInjection:
+    enable: 0
+    strength: 1
+    useNoiseMask: 1
+    useNoiseMaskLevels: 1
+    noiseMaskLevelParameters:
+      levelLowThreshold: 0
+      levelHiThreshold: 1
+      outputLowValue: 0
+      outputHiValue: 1
+      contrast: 5
+      saturateOutputValues: 0
+    useTexture2DMask: 1
+    useTexture2DMaskLevels: 0
+    texture2DMaskLevelParameters:
+      levelLowThreshold: 0
+      levelHiThreshold: 1
+      outputLowValue: 0
+      outputHiValue: 1
+      contrast: 1
+      saturateOutputValues: 0
+    useTexture3DMask: 1
+    useTexture3DMaskLevels: 0
+    texture3DMaskLevelParameters:
+      levelLowThreshold: 0
+      levelHiThreshold: 1
+      outputLowValue: 0
+      outputHiValue: 1
+      contrast: 1
+      saturateOutputValues: 0
+--- !u!4 &2016002752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016002750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2073334638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2073334639}
+  - component: {fileID: 2073334640}
+  - component: {fileID: 2073334641}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2073334639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073334638}
+  m_LocalRotation: {x: 0, y: 0.5735764, z: 0, w: 0.8191521}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 322792543}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 70, z: 0}
+--- !u!108 &2073334640
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073334638}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 0.907, g: 1, b: 0.85, a: 1}
+  m_Intensity: 0.8
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!114 &2073334641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073334638}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01d29d88278f45458d99e6b5199e920, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength: 0.5
+  useScattering: 0
+  overrideScattering: 0
+  overridingScattering: 0.5
+  scatteringBias: 0
+  useColorTemperatureTint: 0
+  overrideColor: 0
+  overridingColor: {r: 1, g: 1, b: 1, a: 1}
+  useShadow: 1
+  useCookie: 1
+  cookieMapRenderTexture: {fileID: 0}
+  enableOutOfPhaseColor: 0
+  outOfPhaseColorStrength: 0.1
+  outOfPhaseColor: {r: 0, g: 1, b: 1, a: 1}
+  customDistanceFalloffThreshold: 0.5
+  customDistanceFalloffPower: 2
+  customCookieDistanceFalloffStartThreshold: 0.1
+  customCookieDistanceFalloffEndThreshold: 0.25
+  customCookieDistanceFalloffPower: 2
+  customAngularFalloffThreshold: 0.8
+  customAngularFalloffPower: 2
+--- !u!1 &2089346556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2089346557}
+  m_Layer: 0
+  m_Name: PinsContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2089346557
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089346556}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1416557056}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
